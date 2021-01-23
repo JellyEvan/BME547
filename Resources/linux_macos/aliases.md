@@ -10,7 +10,22 @@ aliases in Windows and GitBash are different than these.)
 
 * In the terminal, type `cd ~` to ensure you are in your home directory.
 * Type `ls -a` to list all files in this directory, including those that are
-hidden.  One of the files should be `.bash_profile`.
+hidden.  
+# For Mac 10.15 (Catalina) or later
+* Look to see if the file ~/.zshrc exists.
+* If it does not, create it with touch ~/.zshrc.
+* Open ~/.zshrc in your favorite text editor.
+* Open `.zshrc` for editing in your favorite text editor.
+* Add the following line: `alias python='python3'`
+* Save and close the file.
+* Close and then re-open your terminal window to have the new alias take
+effect.
+  
+Now, the command `python` should run Python version 3.  
+
+Note, you can make an alias for any command line command.
+# For mac OS 10.14 (Mojave) or earlier
+One of the files should be `.bash_profile`.
 * Open `.bash_profile` for editing in your favorite text editor.
 * Add the following line: `alias python='python3'`
 * Save and close the file.
