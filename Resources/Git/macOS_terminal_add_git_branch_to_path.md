@@ -23,7 +23,7 @@ zstyle ':vcs_info:git:*' formats ${COLOR_GIT}'(%b)'${COLOR_DEF}
  
 # Setup the prompt with git branch name
 setopt PROMPT_SUBST
-PROMPT='%n@%m in ${PWD/#$HOME/~} ${vcs_info_msg_0_} > '
+PROMPT='%n@%m in ${PWD/#$HOME/~} ${vcs_info_msg_0_} %% '
 ```
 Now run `source ~/.zshrc` in your Terminal to see the changes.
 * Note:
